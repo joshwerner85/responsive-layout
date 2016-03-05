@@ -1,0 +1,188 @@
+/*--------------------------------NAVIGATION----START-------------------------------------------------------- */
+nav {
+  background: white;
+  padding: 0.5em 0;
+  overflow: hidden;
+  margin: -3px auto; }
+
+nav > a {
+  display: block;
+  color: white;
+  line-height: 2em;
+  text-decoration: none; }
+
+.nav-logo {
+  padding: 0 1em;
+  float: left; }
+
+.nav-button {
+  float: left;
+  padding: 0 1em;
+  color: #777; }
+
+.nav-pricing {
+  float: left;
+  padding: 0 1em;
+  color: black; }
+
+.nav-logo > img {
+  height: 2em;
+  display: inline-block;
+  float: left;
+  padding-right: 1em; }
+
+/*--------------------------------NAVIGATION----END-------------------------------------------------------- */
+/*--------------------------------JUMBOTRON-IMAGE-START------------------------------------------------------------ */
+section.img-placeholder {
+  overflow: hidden;
+  text-align: center;
+  padding: 2.3em 0 2.3em 0;
+  font-size: 2.2em;
+  font-weight: 100;
+  color: white;
+  background: url(../images/background.png) top left no-repeat;
+  height: 39px; }
+
+/*--------------------------------JUMBOTRON-IMAGE-END------------------------------------------------------------ */
+/*--------------------------------SECTION 1---------------------------------------------------------------------- */
+section.pricing-image {
+  width: 384px;
+  height: 221px;
+  background-color: #519251;
+  margin-left: 16px;
+  margin-top: -21px;
+  padding-top: 20px; }
+
+section.pricing-section-2 {
+  margin-top: 69px;
+  /* padding-right: 26px; */
+  /* padding-left: 26px; */
+  padding: 0 26px; }
+
+/*--------------------------------SECTION 1---------END------------------------------------------------------------- */
+section.pricing {
+  margin-top: 69px; }
+
+section.pricing {
+  background: #519251;
+  height: 211px;
+  padding-top: 11px; }
+
+section.pricing {
+  margin-top: 48px; }
+
+h2.simple-pricing {
+  margin-top: -131px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: xx-large; }
+
+h2.try-before {
+  margin-left: 62px;
+  margin-top: -26px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: xx-large;
+  color: white; }
+
+section.pricing-image {
+  width: 384px;
+  height: 221;
+  background-color: #519251;
+  margin-left: 16px;
+  margin-top: -21px; }
+
+section.pricing-2 {
+  margin-top: 415px;
+  background: #2C4985;
+  height: 211px;
+  padding-top: 11px; }
+
+section.pricing-section-2 {
+  margin-top: 69px;
+  /* padding-right: 26px; */
+  /* padding-left: 26px; */
+  padding: 0 26px; }
+
+section.pricing-section-3 {
+  margin-top: 419px; }
+
+h4.text-personal {
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: 3px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 500; }
+
+h1.text-pricing {
+  text-align: center;
+  margin: -28px auto;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 6.5em; }
+
+h2.per-month {
+  text-align: center;
+  line-height: 2.95em;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  color: #95A3C2; }
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  line-height: 3;
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  padding: 0;
+  margin-top: -15px; }
+
+li {
+  border-bottom: 1px solid #e7e7e7;
+  text-decoration: none; }
+
+.choose-button {
+  background-color: white;
+  height: 85px;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  margin-top: -16px; }
+
+button {
+  margin-left: 136px;
+  margin-top: 21px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid grey;
+  height: 42px;
+  width: 127px; }
+
+section.pricing-section-3 {
+  margin-top: 404px;
+  padding: 0 26px; }
+
+section.pricing-section-4 {
+  margin-top: 404px;
+  padding: 0 26px; }
+
+/*-------------------------------MEDIA QUERIES----MIN-WIDTH-480PX------------------------------------------------------------- */
+@media (min-width: 480px) {
+  section.img-placeholder {
+    overflow: hidden;
+    text-align: center;
+    padding: 2.3em 0 2.3em 0;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: white;
+    background: url(../images/background.png) top left no-repeat;
+    height: 238px; } }
+/*-------------------------------------------------------------------------------------------- */
+
+/*# sourceMappingURL=main.css.map */
