@@ -50,43 +50,9 @@
 	    background: url(../images/background.png) top left no-repeat;
 	    height: 39px;
 		}
-	/*--------------------------------JUMBOTRON-IMAGE-END------------------------------------------------------------ */
-
-	/*--------------------------------SECTION 1---------------------------------------------------------------------- */
-		section.pricing-image {
-	    width: 384px;
-	    height: 221px;
-	    background-color: #519251;
-	    margin-left: 16px;
-	    margin-top: -21px;
-	    padding-top: 20px;
-		}
-
-		section.pricing-section-2 {
-		  margin-top: 69px;
-		  /* padding-right: 26px; */
-		  /* padding-left: 26px; */
-		  padding: 0 26px; 
-		}
-
-		 
-	/*--------------------------------SECTION 1---------END------------------------------------------------------------- */
-		section.pricing {
-   			 margin-top: 69px;
-		}
-
-		section.pricing {
-	    background: #519251;
-	    height: 211px;
-	    padding-top: 11px;
-		}
-
-		section.pricing {
-    	margin-top: 48px;
-    	}
 
 		h2.simple-pricing {
-	    margin-top: -131px;
+	    margin-top: -30px;
 	    text-align: center;
 	    color: white;
 	    font-family: sans-serif;
@@ -95,115 +61,199 @@
 		}
 
 		h2.try-before {
-	    margin-left: 62px;
-	    margin-top: -26px;
+	    margin-left: 22px;
+	    margin-top: -27px;
 	    font-family: sans-serif;
 	    font-weight: 500;
 	    font-size: xx-large;
 	    color: white;
 		}
+	/*--------------------------------JUMBOTRON-IMAGE-END------------------------------------------------------------ */
 
-		section.pricing-image {
-		    width: 384px;
-		    height: 221;
-		    background-color: #519251;
-		    margin-left: 16px;
-		    margin-top:-21px;
-		}
-
-		section.pricing-2 {
-	    margin-top: 415px;
-	    background: #2C4985;
-	    height: 211px;
-	    padding-top: 11px;
-		}
-
+	/*--------------------------------SECTION 2---------------------------------------------------------------------- */
 		section.pricing-section-2 {
-	    margin-top: 69px;
-	    /* padding-right: 26px; */
-	    /* padding-left: 26px; */
-	    padding: 0 26px;
-		}
+    margin-top: 69px;
+    /* padding-right: 26px; */
+    /* padding-left: 26px; */
+    padding: 0 26px;
+	}
 
-		section.pricing-section-3 {
-	    margin-top: 419px;
-		}
+	section.pricing-image {
+    width: 384px;
+    height: 221;
+    background-color: #519251;
+    margin-left: 16px;
+    margin-top: -21px;
+    padding: 20px 0;
+	}
 
-		h4.text-personal {
-	    text-align: center;
-	    line-height: 2em;
-	    letter-spacing: 3px;
-	    color: white;
-	    font-family: sans-serif;
-	    font-weight: 500;
-		}
+h4.text-personal {
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
 
-		h1.text-pricing {
-	    text-align: center;
-	    margin: -28px auto;
-	    color: white;
-	    font-family: sans-serif;
-	    font-weight: 300;
-	    font-size: 6.5em;
-		}
+h1.text-pricing {
+    text-align: center;
+    margin: -28px auto;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 6.5em;
+}
 
-		h2.per-month {
-	    text-align: center;
-	    line-height: 2.95em;
-	    font-family: sans-serif;
-	    font-weight: 500;
-	    font-size: larger;
-	    color: #95A3C2;
-		}
+h2.per-month {
+    text-align: center;
+    line-height: 3.95em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    color: #95A3C2;
+    margin-top: 23px;
+}
 
-		ul {
-	    text-decoration: none;
-	    list-style-type: none;
-	    text-align: center;
-	    line-height: 3;
-	    background: #f7f7f7;
-	    border: 1px solid #dddddd;
-	    padding:0;
-	    margin-top: -15px;
-		}
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 3;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+    padding: 0;
+    margin-top: -15px;
+}
 
-		li {
-	    border-bottom: 1px solid #e7e7e7;
-	    text-decoration: none;
-		}
+li {
+    border-bottom: 1px solid #e7e7e7;
+    text-decoration: none;
+}
 
-		.choose-button {
-	    background-color: white;
-	    height: 85px;
-	    border-bottom: 1px solid #dddddd;
-	    border-left: 1px solid #dddddd;
-	    border-right: 1px solid #dddddd;
-	    margin-top: -16px;
-		}
+.choose-button {
+    background-color: white;
+    height: 85px;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    margin-top: -16px;
+}
 
+button {
+    margin-left: 136px;
+    margin-top: 21px;
+    border-radius: 12px;
+    background-color: white;
+    border: 1px solid grey;
+    height: 42px;
+    width: 127px;
+}
 
-		button {
-	    margin-left: 136px;
-   	 	margin-top: 21px;
-	    border-radius: 12px;
-	    background-color: white;
-	    border: 1px solid grey;
-	    height: 42px;
-	    width: 127px;
-		}
+	
 
-
-		section.pricing-section-3 {
-	    margin-top: 404px;
-	    padding: 0 26px;
-		}
-
-		section.pricing-section-4 {
-	    margin-top: 404px;
-	    padding: 0 26px;
-		}
+	/*--------------------------------SECTION 2---------END------------------------------------------------------------- */
+	/*--------------------------------SECTION 3---------START------------------------------------------------------------- */
+section.pricing-section-3 {
+	margin-top: 404px;
+	padding: 0 26px;
+	}
 
 
+
+section.pricing-image-3 {
+    width: 384px;
+    height: 221;
+    background-color: #2C498E;
+    margin-left: 16px;
+    margin-top: -21px;
+    padding: 20px 0;
+}
+
+	/*--------------------------------SECTION 3---------END------------------------------------------------------------- */
+
+
+	/*--------------------------------SECTION 4---------START------------------------------------------------------------- */
+section.pricing-section-4 {
+	margin-top: 404px;
+	padding: 0 26px;
+	}
+
+
+
+section.pricing-image-4 {
+    width: 384px;
+    height: 221;
+    background-color: #111111;
+    margin-left: 16px;
+    margin-top: -21px;
+    padding: 20px 0;
+}
+
+	/*--------------------------------SECTION 4---------END------------------------------------------------------------- */
+
+	/*--------------------------------GET STARTED---------START------------------------------------------------------------- */
+section.section-get-started {
+    margin-top: 406px;
+    padding: 49px;
+}
+
+h2.get-started {
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 23px;
+    text-align: center;
+}
+
+p.get-started-p {
+    line-height: 23px;
+}
+
+section.section-pay-monthly {
+	margin-top:-2em;
+	padding:49px;
+}
+
+section.section-customer-support {
+	margin-top:-2em;
+	padding:49px;
+}
+
+section.section-cancel-plan {
+	margin-top:-2em;
+	padding:49px;
+}
+
+footer {
+    background: black;
+    height: 96px;
+	}
+
+	p.for-14-days {
+    line-height: 59px;
+    color: gray;
+    text-align: center;
+	}
+
+	a.try-now {
+    padding: 5px;
+    color: white;
+	}
+
+	p.bottom-text {
+    color: gray;
+    text-align: center;
+    margin-top: -26px;
+	}
+
+	a.unsplash {
+    padding: 5px;
+    color: white;
+	}
+
+
+		 
 
 	/*-------------------------------MEDIA QUERIES----MIN-WIDTH-480PX------------------------------------------------------------- */
 	@media (min-width:480px){

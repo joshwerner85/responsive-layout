@@ -43,36 +43,8 @@ section.img-placeholder {
   background: url(../images/background.png) top left no-repeat;
   height: 39px; }
 
-/*--------------------------------JUMBOTRON-IMAGE-END------------------------------------------------------------ */
-/*--------------------------------SECTION 1---------------------------------------------------------------------- */
-section.pricing-image {
-  width: 384px;
-  height: 221px;
-  background-color: #519251;
-  margin-left: 16px;
-  margin-top: -21px;
-  padding-top: 20px; }
-
-section.pricing-section-2 {
-  margin-top: 69px;
-  /* padding-right: 26px; */
-  /* padding-left: 26px; */
-  padding: 0 26px; }
-
-/*--------------------------------SECTION 1---------END------------------------------------------------------------- */
-section.pricing {
-  margin-top: 69px; }
-
-section.pricing {
-  background: #519251;
-  height: 211px;
-  padding-top: 11px; }
-
-section.pricing {
-  margin-top: 48px; }
-
 h2.simple-pricing {
-  margin-top: -131px;
+  margin-top: -30px;
   text-align: center;
   color: white;
   font-family: sans-serif;
@@ -80,34 +52,28 @@ h2.simple-pricing {
   font-size: xx-large; }
 
 h2.try-before {
-  margin-left: 62px;
-  margin-top: -26px;
+  margin-left: 22px;
+  margin-top: -27px;
   font-family: sans-serif;
   font-weight: 500;
   font-size: xx-large;
   color: white; }
 
-section.pricing-image {
-  width: 384px;
-  height: 221;
-  background-color: #519251;
-  margin-left: 16px;
-  margin-top: -21px; }
-
-section.pricing-2 {
-  margin-top: 415px;
-  background: #2C4985;
-  height: 211px;
-  padding-top: 11px; }
-
+/*--------------------------------JUMBOTRON-IMAGE-END------------------------------------------------------------ */
+/*--------------------------------SECTION 2---------------------------------------------------------------------- */
 section.pricing-section-2 {
   margin-top: 69px;
   /* padding-right: 26px; */
   /* padding-left: 26px; */
   padding: 0 26px; }
 
-section.pricing-section-3 {
-  margin-top: 419px; }
+section.pricing-image {
+  width: 384px;
+  height: 221;
+  background-color: #519251;
+  margin-left: 16px;
+  margin-top: -21px;
+  padding: 20px 0; }
 
 h4.text-personal {
   text-align: center;
@@ -127,11 +93,12 @@ h1.text-pricing {
 
 h2.per-month {
   text-align: center;
-  line-height: 2.95em;
+  line-height: 3.95em;
   font-family: sans-serif;
   font-weight: 500;
   font-size: larger;
-  color: #95A3C2; }
+  color: #95A3C2;
+  margin-top: 23px; }
 
 ul {
   text-decoration: none;
@@ -164,13 +131,83 @@ button {
   height: 42px;
   width: 127px; }
 
+/*--------------------------------SECTION 2---------END------------------------------------------------------------- */
+/*--------------------------------SECTION 3---------START------------------------------------------------------------- */
 section.pricing-section-3 {
   margin-top: 404px;
   padding: 0 26px; }
 
+section.pricing-image-3 {
+  width: 384px;
+  height: 221;
+  background-color: #2C498E;
+  margin-left: 16px;
+  margin-top: -21px;
+  padding: 20px 0; }
+
+/*--------------------------------SECTION 3---------END------------------------------------------------------------- */
+/*--------------------------------SECTION 4---------START------------------------------------------------------------- */
 section.pricing-section-4 {
   margin-top: 404px;
   padding: 0 26px; }
+
+section.pricing-image-4 {
+  width: 384px;
+  height: 221;
+  background-color: #111111;
+  margin-left: 16px;
+  margin-top: -21px;
+  padding: 20px 0; }
+
+/*--------------------------------SECTION 4---------END------------------------------------------------------------- */
+/*--------------------------------GET STARTED---------START------------------------------------------------------------- */
+section.section-get-started {
+  margin-top: 406px;
+  padding: 49px; }
+
+h2.get-started {
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 23px;
+  text-align: center; }
+
+p.get-started-p {
+  line-height: 23px; }
+
+section.section-pay-monthly {
+  margin-top: -2em;
+  padding: 49px; }
+
+section.section-customer-support {
+  margin-top: -2em;
+  padding: 49px; }
+
+section.section-cancel-plan {
+  margin-top: -2em;
+  padding: 49px; }
+
+footer {
+  background: black;
+  height: 96px; }
+
+p.for-14-days {
+  line-height: 59px;
+  color: gray;
+  text-align: center; }
+
+a.try-now {
+  padding: 5px;
+  color: white; }
+
+p.bottom-text {
+  color: gray;
+  text-align: center;
+  margin-top: -26px; }
+
+a.unsplash {
+  padding: 5px;
+  color: white; }
 
 /*-------------------------------MEDIA QUERIES----MIN-WIDTH-480PX------------------------------------------------------------- */
 @media (min-width: 480px) {
