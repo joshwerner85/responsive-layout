@@ -134,7 +134,7 @@ button {
 /*--------------------------------SECTION 2---------END------------------------------------------------------------- */
 /*--------------------------------SECTION 3---------START------------------------------------------------------------- */
 section.pricing-section-3 {
-  margin-top: 404px;
+  margin-top: 431px;
   padding: 0 26px; }
 
 section.pricing-image-3 {
@@ -148,7 +148,7 @@ section.pricing-image-3 {
 /*--------------------------------SECTION 3---------END------------------------------------------------------------- */
 /*--------------------------------SECTION 4---------START------------------------------------------------------------- */
 section.pricing-section-4 {
-  margin-top: 404px;
+  margin-top: 431px;
   padding: 0 26px; }
 
 section.pricing-image-4 {
@@ -170,7 +170,7 @@ h2.get-started {
   font-weight: 400;
   letter-spacing: 3px;
   font-size: 23px;
-  text-align: center; }
+  text-align: left; }
 
 p.get-started-p {
   line-height: 23px; }
@@ -219,7 +219,181 @@ a.unsplash {
     font-weight: 100;
     color: white;
     background: url(../images/background.png) top left no-repeat;
-    height: 238px; } }
+    height: 238px; }
+
+  h2.simple-pricing {
+    margin-top: 42px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.5em; }
+
+  h2.try-before {
+    margin-left: 22px;
+    margin-top: -27px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: white; }
+
+  section.pricing-section-2 {
+    margin-top: 4.3125em;
+    /* padding-right: 26px; */
+    /* padding-left: 26px; */
+    padding: 0 2em; }
+
+  section.pricing-image {
+    width: 95%;
+    height: 14em;
+    background-color: #519251;
+    margin-left: 1em;
+    margin-top: -1.5em;
+    padding: 1.25em 0; }
+
+  section.pricing-image-3 {
+    width: 95%;
+    height: 14em;
+    background-color: #2C498E;
+    margin-left: 1em;
+    margin-top: -1.5em;
+    padding: 1.25em 0; }
+
+  section.pricing-image-4 {
+    width: 95%;
+    height: 14em;
+    background-color: black;
+    margin-left: 1em;
+    margin-top: -1.5em;
+    padding: 1.25em 0; }
+
+  h4.text-personal {
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 3px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500; }
+
+  h1.text-pricing {
+    text-align: center;
+    margin: -28px auto;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 6.5em; }
+
+  h2.per-month {
+    text-align: center;
+    line-height: 3.95em;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    color: #95A3C2;
+    margin-top: 1.4375em; }
+
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    line-height: 3;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+    padding: 0;
+    margin-top: -1em; }
+
+  li {
+    border-bottom: .0625em solid #e7e7e7;
+    text-decoration: none; }
+
+  .choose-button {
+    background-color: white;
+    height: 5.3125em;
+    border-bottom: .0625em solid #dddddd;
+    border-left: .0625em solid #dddddd;
+    border-right: .0625em solid #dddddd;
+    margin-top: -1em; }
+
+  button {
+    margin-left: 38%;
+    margin-top: 1.3125em;
+    border-radius: .75em;
+    background-color: white;
+    border: .0625em solid grey;
+    height: 2.625em;
+    width: 24%; }
+
+  section.pricing-section-4 {
+    margin-top: 26.9375em;
+    padding: 0 26px; } }
 /*-------------------------------------------------------------------------------------------- */
+@media (min-width: 767px) {
+  section.pricing-image {
+    width: 30%;
+    height: 14em;
+    background-color: #519251;
+    margin-left: 2%;
+    margin-top: -1.53em;
+    padding: 1.25em 0;
+    float: left; }
+
+  section.pricing-image-3 {
+    width: 30%;
+    height: 14em;
+    background-color: #2C498E;
+    margin-left: 34%;
+    margin-top: -24.2em;
+    padding: 1.25em 0;
+    float: left; }
+
+  section.pricing-image-4 {
+    width: 30%;
+    height: 14em;
+    background-color: black;
+    margin-left: 66%;
+    margin-top: -24.2em;
+    padding: 1.25em 0;
+    float: left; }
+
+  section.section-get-started {
+    margin-top: 316px;
+    padding: 49px; }
+
+  h2.get-started {
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 23px;
+    text-align: left; }
+
+  p.get-started-p {
+    line-height: 23px; }
+
+  section.section-get-started {
+    margin-top: 680px;
+    width: 336px; }
+
+  section.section-pay-monthly {
+    margin-top: -300px;
+    width: 336px;
+    margin-left: 46.6%; }
+
+  section.section-customer-support {
+    margin-top: -100px;
+    width: 300px; }
+
+  section.section-cancel-plan {
+    margin-top: -334px;
+    width: 336px;
+    margin-left: 46.6%; }
+
+  button {
+    margin-left: 38%;
+    margin-top: 1.3125em;
+    border-radius: .75em;
+    background-color: white;
+    border: .0625em solid grey;
+    height: 2.625em;
+    width: 34%; } }
 
 /*# sourceMappingURL=main.css.map */
