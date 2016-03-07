@@ -444,27 +444,34 @@ a.unsplash {
   }
 }
 
-@media (min-width: 979px) {
-  section {
-    &.section-get-started {
-      margin-top: 680px;
+@media (min-width:979px){
+
+	section.section-get-started {
+    margin-top: 680px;
     width: 500px;
     margin-left: 10px;
     }
-    &.section-pay-monthly {
-      margin-top: -279px;
+
+  section.section-pay-monthly {
+    margin-top: -279px;
     width: 41%;
     margin-left: 54%;
     }
-    &.section-customer-support {
-      margin-top: -100px;
+
+  section.section-customer-support {
+    margin-top: -100px;
     width: 500px;
     margin-left: 10px;
     }
-    &.section-cancel-plan {
-      margin-top: -270px;
+
+  section.section-cancel-plan {
+    margin-top: -270px;
     width: 41%;
     margin-left: 54%;
     }
-  }
+
+
+
+
+
 }
